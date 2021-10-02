@@ -34,12 +34,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-      'nuxt-windicss',
-      'nuxt-vite'
+    'nuxt-windicss',
+    'nuxt-vite'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // https://go.nuxtjs.dev/content
+    '@nuxt/content'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
